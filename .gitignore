@@ -1,0 +1,25 @@
+# IDE and macOS files
+.idea/
+*.iml
+.DS_Store
+
+# Gradle, Kotlin and Android build output
+.gradle/
+.kotlin/
+build/
+.externalNativeBuild/
+.cxx/
+captures/
+*.apk
+*.aab
+*.hprof
+*.log
+
+# Machine-specific paths and local credentials
+local.properties
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
